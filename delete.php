@@ -32,7 +32,7 @@ $_SESSION['torolt']=$row['cim'];
 if(isset($_POST['del'])&& isset($_SESSION['torlendo'])){
 $sql="DELETE from filmek where id={$_SESSION['torlendo']}";
 $stmt=$db->exec($sql);
-$_SESSION['msg']=$stmt ? "A(z) {$_SESSION['torolt']}  eltávolítva a megnézendők közül" : "Nem sikerült eltávolítani";
+$_SESSION['msg']=$stmt ? "A(z) {$_SESSION['torolt']}  ltávolítva a megnézendők közül" : "Nem sikerült eltávolítani";
 header("Location:index.php"); 
 }
 ?>
@@ -60,7 +60,7 @@ header("Location:index.php");
 
 <form method="post">
 
-<input type="submit" value="Törlés" name="del">
+<input type="submit" value="Megnéztem!" name="del">
 </form>
 
     </div>
