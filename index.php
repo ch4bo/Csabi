@@ -9,14 +9,18 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filmek</title>
-    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    
+   
     <script src="bootstrap/jquery.min.js"></script>
     <script src="bootstrap/bootstrap.min.js"></script>
     <script src="menu.js"></script>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="film.css">
+   
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid jumbotron border">
         <div class="row">
         <div class="col-3">
             <nav class="nav flex-column">

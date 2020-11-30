@@ -1,0 +1,17 @@
+
+.container-fluid{
+    max-width: 900px;
+    min-height: 600px;
+}
+.jumbotron{
+
+    background: linear-gradient(to bottom, rgba(255,255,255,0.4), rgba(255,255,255,0.9)), url(vetit.jpg) center no-repeat;
+    background-size: cover;
+}
+
+body {
+
+
+background: url(film.jpg);
+
+}
